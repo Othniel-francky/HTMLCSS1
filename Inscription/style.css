@@ -85,14 +85,14 @@ nav ul li a:hover {
     font-size: 30px;
   }
   .barre{
-    height: 500px;
-    width: 600px;
-    border: 1px solid red;
+    height: 627px;
+    width: 661px;
+    border: 1px solid black;
     margin: 0 auto;
   }
   .inscrit{
     height: 50px;
-    width: 600px;
+    width: 661px;
     border: 1px solid blue;
     background-color: blue;
   }
@@ -100,3 +100,51 @@ nav ul li a:hover {
     font-size: 26px;
     color: white;
   }
+  input{
+    height: 46px;
+    width: 625px;
+    background-color: #D9D9D9;
+    border: none;
+  }
+  .espace{
+    padding-top: 25px;
+    margin: 10px;
+  }
+  button{
+    border: none;
+  background: blue;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.4s;
+  left: 25px;
+  }
+  .contenu{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .img-foot{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .suivre i{
+    height: 100px;
+    font-size: 40px;
+  }
+  .bal img{
+    width: 50px;
+    height: 100px;
+    object-fit: contain;
+  }
+  label{
+    font-family: inter;
+    font-style: normal;
+    font-weight: 182px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  
+  
+ 
